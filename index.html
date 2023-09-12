@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yummy</title>
+    <link rel="stylesheet" href="css/styel.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <div class=" bg-black d-block min-vh-100">
+        <nav class="nav position-fixed h-100 d-flex  z-2">
+            <div class="navber flex-column bg-black  d-flex justify-content-between ">
+                <ul class="navbar-nav h-50 pt-5 ps-3 ">
+                    <li onclick="search()" class="nav-item">
+                      <a  class="nav-link">Search</a>
+                    </li>
+                    <li onclick="Categories()" class="nav-item">
+                      <a class="nav-link" >Categories</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">Area</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" >Ingredients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" >Contact Us</a>
+                    </li>
+                </ul>
+                <ul class="text-white list-unstyled ">
+                    <li  class="d-inline"><i class="fab fa-facebook-f"></i></li>
+                    <li class="d-inline"><i class="fab fa-twitter"></i></li>
+                    <li  class="d-inline"> <i class="fa-sharp fa-solid fa-globe"></i></li>
+                    <p class="text-white small">Copy right Â© <span id="date"></span>All Rights Reserved.</p>
+                </ul>
+            </div>
+            <div class="icon bg-white ">
+                <div class="iconpage">
+                    <img src="image/logo.png" >
+                </div>
+                <div class="Icons p-3 text-dark position-relative ">
+                    <i id="open" class="open fa-solid fa-bars fa-2xl"></i>       
+                    <i id="close" class="close fa-solid fa-xmark fa-2xl d-none "></i>       
+                </div>  
+            </div>
+        </nav>
+        <div id="data" class="home min-vh-100 m-auto row "></div>
+    </div>
+    <div id="slider" class="slider bg-dark position-fixed top-0 text-white overflow-y-scroll"></div>
+    <div id="search" class="search position-fixed top-0 w-100 bg-black">
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

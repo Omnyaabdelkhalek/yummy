@@ -1,0 +1,37 @@
+.navber {
+    background-color: #000;
+}
+.nav{
+    width: fit-content;
+}
+.nav-item{
+    color: #fff;
+    font-size: 15px;
+    padding: 5px;
+}
+.iconpage img{
+    width: 50px;
+    padding-top: 20px;
+}
+.Icons{
+  top: 280px;
+  left:0;
+}
+.home{
+    width:85% ;
+}
+.layer{
+    position: absolute;
+    display: flex;
+    top:100%;
+    left: 0px; 
+    bottom:0px;
+    right: 0;
+    overflow: hidden;
+    transition: all 0.6s;
+    background-color: #f9f6f6ca;
+    width: 93%;
+}
+.item:hover .layer{
+    top: 0%;
+}
